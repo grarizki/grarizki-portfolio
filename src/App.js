@@ -2,30 +2,30 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import home from './pages/home/home';
-import projects from './pages/projects/projects';
-import blog from './pages/blog/blog';
-import about from './pages/about';
-import contact from './pages/contacts/contact';
+import Home from './pages/home/Home';
+import Projects from './pages/projects/Projects';
+import Blog from './pages/blog/Blog';
+import About from './pages/about';
+import Contact from './pages/contacts/Contact';
 
 function App() {
   return (
     <div className="App">
       <Switch>
         <Route path="/">
-          <home />
+          <Home />
         </Route>
         <Route path="/projects">
-          <projects />
+          <Projects />
         </Route>
         <Route path="/blog">
-          <blog />
+          <Blog />
         </Route>
         <Route path="/about">
-          <about />
+          <About />
         </Route>
         <Route path="/contact-me">
-          <contacts />
+          <Contact />
         </Route>
       </Switch>
     </div>
