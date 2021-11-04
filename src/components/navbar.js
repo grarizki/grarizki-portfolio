@@ -2,7 +2,9 @@ import React from 'react';
 import './components.css';
 
 function navbar() {
-  return <div></div>;
+  return <div className="">
+
+  </div>;
 }
 
 export default navbar;

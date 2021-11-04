@@ -2,16 +2,17 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import Home from './pages/Home/Home';
-import Projects from './pages/Projects/Projects';
-import Blog from './pages/Blog/Blog';
-import About from './pages/About';
-import Contact from './pages/Contacts/Contact';
+// import Home from './pages/Home/Home';
+// import Projects from './pages/Projects/Projects';
+// import Blog from './pages/Blog/Blog';
+// import About from './pages/About';
+// import Contact from './pages/Contacts/Contact';
 
 function App() {
   return (
     <div className="App">
-      <Switch>
+      <h1 className="flex mx-auto text-2xl text-red-900 "> INI PAKE TAILWIND</h1>
+      {/* <Switch>
         <Route path="/">
           <Home />
         </Route>
@@ -27,7 +28,7 @@ function App() {
         <Route path="/contact-me">
           <Contact />
         </Route>
-      </Switch>
+      </Switch> */}
     </div>
   );
 }
