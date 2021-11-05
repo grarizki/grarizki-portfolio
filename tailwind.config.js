@@ -10,6 +10,10 @@ module.exports = {
       xl: { min: '1280px', max: '1535px' },
       '2xl': { min: '1536px' },
     },
+    colors: {
+      'primary': '#F0DCC0',
+      'darktext': '#2A2A2A'
+    },
     variants: {
       extend: {},
     },

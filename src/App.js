@@ -7,13 +7,14 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 // import Blog from './pages/blog/Blog';
 // import About from './pages/about';
 // import Contact from './pages/contacts/Contact';
-// import Navbar from './components/navbar'
+import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="flex mx-auto text-2xl text-red-900 "> INI PAKE TAILWIND</h1>
-      {/* <Switch>
+    <div className="container">
+      <div className="App">
+        <Navbar />
+        {/* <Switch>
         <Route path="/">
           <Home />
         </Route>
@@ -30,6 +31,7 @@ function App() {
           <Contact />
         </Route>
       </Switch> */}
+      </div>
     </div>
   );
 }
